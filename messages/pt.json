@@ -1,0 +1,210 @@
+{
+  "nav": {
+    "home": "Início",
+    "team": "Equipa",
+    "solutions": "Soluções"
+  },
+  "footer": {
+    "email": "mariajoao@mestria.io",
+    "followUs": "Siga-nos",
+    "tagline": "Knowledge retention through expert shadowing and custom wikis.",
+    "quickLinks": "Links Rápidos",
+    "contact": "Contacto",
+    "rights": "Todos os direitos reservados.",
+    "bottomTagline": "Transformando conhecimento tácito em activos estratégicos."
+  },
+  "home": {
+    "hero": {
+      "title": "retenção de conhecimento",
+      "subtitle1": "O saber dos seus mestres preservado para sempre",
+      "subtitle2": "Transformamos o conhecimento tácito em activos estratégicos"
+    },
+    "cta": {
+      "learnMore": "Saber Mais",
+      "getInTouch": "Entre em Contacto"
+    },
+    "contact": {
+      "title": "Entre Em Contacto",
+      "sendEmail": "Enviar Email"
+    },
+    "mission": {
+      "title": "MISSÃO",
+      "content": "Na MESTRIA, não gerimos apenas recursos; protegemos o capital intelectual da sua indústria. Especializamo-nos na captura e sistematização de conhecimento técnico em setores de alta complexidade e risco, onde a reforma de um \"Mestre\" não pode significar a perda de décadas de inovação.\n\nAtravés de uma metodologia rigorosa de Shadowing Analítico e da criação de Wikis de Engenharia customizadas, garantimos que o saber-fazer crítico da sua operação — especialmente nas indústrias de produção e / ou transformação de perfis de alumínio obtidos por extrusão — seja devidamente documentado, transferido e escalado."
+    },
+    "weDeliver": {
+      "title": "O QUE ENTREGAMOS",
+      "subtitle": "MESTRIA: Porque o conhecimento é o único activo que valoriza quando é partilhado.",
+      "items": [
+        {
+          "title": "Continuidade Operacional",
+          "description": "Mitigação do risco crítico de perda de competências.",
+          "svg": "Operational Continuity.svg"
+        },
+        {
+          "title": "Eficiência Técnica",
+          "description": "Digitalização e normalização de processos complexos.",
+          "svg": "Technical Efficiency.svg"
+        },
+        {
+          "title": "Futuro Garantido",
+          "description": "Uma ponte sólida entre a mestria experiente e a nova geração de aprendizes.",
+          "svg": "Guaranteed Future.svg"
+        }
+      ]
+    },
+    "earnings": {
+      "title": "GANHOS",
+      "items": [
+        {
+          "key": "risk_mitigation",
+          "title": "Mitigação de Risco",
+          "description": "O cérebro da operação fica na empresa, não nas mãos de indivíduos.",
+          "svg": "Risk Mitigation.svg"
+        },
+        {
+          "key": "cost_reduction",
+          "title": "Redução de Custos",
+          "description": "Menos erros de produção, menos tempo de formação, menos máquinas paradas.",
+          "svg": "Cost Reduction.svg"
+        },
+        {
+          "key": "company_valuation",
+          "title": "Valorização da Empresa",
+          "description": "Processos documentados e replicáveis aumentam o valuation perante investidores.",
+          "svg": "Company Valuation.svg"
+        },
+        {
+          "key": "attract_genz",
+          "title": "Atrair Nova Geração",
+          "description": "Fábrica digital com acesso mobile motiva e retém a Geração Z.",
+          "svg": "Attracting new gen.svg"
+        }
+      ]
+    }
+  },
+  "team": {
+    "whoWeAre": "Quem Somos",
+    "founder": {
+      "section_title": "A Equipa",
+      "name": "Maria João Oliveira",
+      "title": "Fundadora",
+      "bio": "Especialista com 25 anos de experiência na indústria de produção e transformação de perfis de alumínio, com foco na otimização de cadeias de abastecimento e gestão de equipas até 80 colaboradores. Formadora certificada (CCP), com forte vocação para a transmissão de conhecimento técnico e coordenação de equipas multi-disciplinares.",
+      "highlight1": "Pós-Graduação em Logística e Gestão de Transportes — Coimbra Business School",
+      "highlight2": "Licenciatura em Engenharia do Ambiente — Universidade de Aveiro",
+      "highlight3": "Power BI, Lean/Kaizen, Gestão Aduaneira, Logística Internacional (UE/EUA)",
+      "highlight4": "Habilitada para docência no Ensino Superior (CTeSP e Licenciaturas)",
+      "education": [
+        "Pós-Graduação em Logística e Gestão de Transportes — Coimbra Business School",
+        "Licenciatura em Engenharia do Ambiente — Universidade de Aveiro"
+      ],
+      "skills": [
+        "Power BI",
+        "Lean/Kaizen",
+        "Gestão Aduaneira",
+        "Logística Internacional (UE/EUA)",
+        "Habilitada para docência no Ensino Superior (CTeSP e Licenciaturas)"
+      ]
+    },
+    "inMemory": {
+      "title": "Em Memória",
+      "quote": "Este projecto deve-se à minha vivência com o Mestre Abel. Honra-o e a todos os mestres que estiveram na minha vida: alguns já partiram. A todos ... um grande bem-haja."
+    },
+    "pageTitle": "A Equipa",
+    "photoAlt": "Foto de Maria João",
+    "educationLabel": "Formação",
+    "expertiseLabel": "Especialidades",
+    "inMemoryBadge": "Em Honra do Mestre Abel",
+    "cta": {
+      "title": "Junte-se à Nossa Missão",
+      "description": "Procuramos organizações que querem preservar o seu conhecimento especializado e construir uma equipa preparada para o futuro.",
+      "button": "Entre em Contacto"
+    }
+  },
+  "solutions": {
+    "pageTitle": "Soluções Personalizadas",
+    "pageIntro": "Abordagens customizadas para preservar e transferir a sua experiência crítica",
+
+    "knowledgeRetention": {
+      "title": "Retenção de Conhecimento",
+      "intro": "Quando um especialista se vai embora, o saber não tem de ir com ele.",
+      "svg": "Knowledge Retention.svg",
+      "approach": {
+        "title": "Shadowing + Wiki",
+        "steps": [
+          "Auditoria e diagnóstico: levantamento do «mapa de conhecimento» (quais mestres detêm que saber)",
+          "Criação da infraestrutura: instalação e configuração da Wiki customizada",
+          "Produção de conteúdo inicial: módulos de saber destilados e gravados (ex: pack de 5 vídeos de processos críticos)"
+        ]
+      }
+    },
+
+    "training": {
+      "title": "Formação e Certificação",
+      "intro": "Transforme a integração numa vantagem competitiva com treino estruturado e certificação de competências.",
+      "svg": "Training Certification.svg",
+      "approach": {
+        "title": "Treino On-Job",
+        "steps": [
+          "Planos de acompanhamento de aprendizes (cobrança por hora ou por formando)",
+          "Treino baseado na Wiki da empresa, no posto de trabalho",
+          "Avaliações de desempenho integradas nos módulos de aprendizagem"
+        ]
+      }
+    },
+
+    "wikiCreation": {
+      "title": "Criação e Digitalização de Wiki",
+      "intro": "Do papel ao digital — ou do zero à Wiki completa.",
+
+      "digitization": {
+        "title": "Digitalização de Arquivo para Wiki",
+        "svg": "Archive.svg",
+        "steps": [
+          "Análise e curadoria do arquivo existente de instruções de trabalho",
+          "Conversão para formato Wiki com stories visuais e interativas",
+          "Criação da infraestrutura Wiki customizada",
+          "Formação da equipa para manutenção autónoma"
+        ]
+      },
+
+      "fromScratch": {
+        "title": "Construção de Wiki de Raiz",
+        "svg": "Build.svg",
+        "steps": [
+          "Levantamento completo de processos junto da equipa existente",
+          "Definição e estruturação de todos os módulos de conhecimento",
+          "Criação da infraestrutura Wiki costumizada",
+          "Produção integral de conteúdo (vídeos, instruções, micro-learning)"
+        ]
+      }
+    },
+
+    "whyChoose": {
+      "title": "Por Que Escolher",
+      "svg": "Why Choose.svg",
+      "benefits": [
+        {
+          "title": "Mitigação de Risco",
+          "description": "Garante conhecimento crítico",
+          "svg": "risk.svg"
+        },
+        {
+          "title": "Escalabilidade",
+          "description": "Fácil transferência",
+          "svg": "scale.svg"
+        },
+        {
+          "title": "Melhoria Contínua",
+          "description": "Evolução constante",
+          "svg": "improve.svg"
+        }
+      ]
+    },
+
+    "cta": {
+      "title": "Pronto para Transformar o Conhecimento?",
+      "description": "Vamos discutir a melhor solução.",
+      "button": "Agendar Consulta"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "home": "Home",
+    "team": "Team",
+    "solutions": "Solutions"
+  },
+  "footer": {
+    "email": "mariajoao@mestria.io",
+    "followUs": "Follow us",
+    "tagline": "Knowledge retention through expert shadowing and custom wikis.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "bottomTagline": "Transforming tacit knowledge into strategic assets."
+  },
+  "home": {
+    "hero": {
+      "title": "knowledge retention",
+      "subtitle1": "Your master's knowledge preserved forever",
+      "subtitle2": "We transform tacit knowledge into strategic assets"
+    },
+    "cta": {
+      "learnMore": "Learn More",
+      "getInTouch": "Get in Touch"
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "sendEmail": "Send Email"
+    },
+    "mission": {
+      "title": "MISSION",
+      "content": "At MESTRIA, we don't just manage resources; we protect your industry's intellectual capital. We specialize in capturing and systematizing technical knowledge in sectors of high complexity and risk, where a \"Master's\" retirement cannot mean the loss of decades of innovation.\n\nThrough a rigorous Analytical Shadowing methodology and the creation of custom Engineering Wikis, we ensure that the critical know-how of your operation — especially in the production and/or transformation of aluminium profiles obtained by extrusion — is properly documented, transferred and scaled."
+    },
+    "weDeliver": {
+      "title": "WE DELIVER",
+      "subtitle": "MESTRIA: Because knowledge is the only asset that appreciates when shared.",
+      "items": [
+        {
+          "title": "Operational Continuity",
+          "description": "Mitigation of the critical risk of skills loss.",
+          "svg": "Operational Continuity.svg"
+        },
+        {
+          "title": "Technical Efficiency",
+          "description": "Digitization and standardization of complex processes.",
+          "svg": "Technical Efficiency.svg"
+        },
+        {
+          "title": "Guaranteed Future",
+          "description": "A solid bridge between experienced mastery and the new generation of apprentices.",
+          "svg": "Guaranteed Future.svg"
+        }
+      ]
+    },
+    "earnings": {
+      "title": "EARNINGS",
+      "items": [
+        {
+          "key": "risk_mitigation",
+          "title": "Risk Mitigation",
+          "description": "The operation's brain stays in the company, not in the hands of individuals.",
+          "svg": "Risk Mitigation.svg"
+        },
+        {
+          "key": "cost_reduction",
+          "title": "Cost Reduction",
+          "description": "Fewer production errors, less training time, less machine downtime.",
+          "svg": "Cost Reduction.svg"
+        },
+        {
+          "key": "company_valuation",
+          "title": "Company Valuation",
+          "description": "Documented and replicable processes increase valuation for investors.",
+          "svg": "Company Valuation.svg"
+        },
+        {
+          "key": "attract_genz",
+          "title": "Attract the New Generation",
+          "description": "A digital factory with mobile access motivates and retains Generation Z.",
+          "svg": "Attracting new gen.svg"
+        }
+      ]
+    }
+  },
+
+  "team": {
+    "whoWeAre": "Who We Are",
+    "founder": {
+      "section_title": "The Team",
+      "name": "Maria João Oliveira",
+      "title": "Founder",
+      "bio": "Specialist with 25 years of experience in the aluminum profile production and transformation industry, focused on supply chain optimization and managing teams of up to 80 people. Certified trainer (CCP), with a strong vocation for technical knowledge transfer and coordination of multidisciplinary teams.",
+      "highlight1": "Postgraduate in Logistics and Transport Management — Coimbra Business School",
+      "highlight2": "Degree in Environmental Engineering — University of Aveiro",
+      "highlight3": "Power BI, Lean/Kaizen, Customs Management, International Logistics (EU/USA)",
+      "highlight4": "Qualified for Higher Education teaching (CTeSP and Degrees)",
+      "education": [
+        "Postgraduate in Logistics and Transport Management — Coimbra Business School",
+        "Degree in Environmental Engineering — University of Aveiro"
+      ],
+      "skills": [
+        "Power BI",
+        "Lean/Kaizen",
+        "Customs Management",
+        "International Logistics (EU/USA)",
+        "Qualified for Higher Education teaching (CTeSP and Degrees)"
+      ]
+    },
+    "inMemory": {
+      "title": "In Memory",
+      "quote": "This project is born from my experience with Mestre Abel. It honours him and all the masters who have been part of my life. Some have already departed. To all of them, my deepest gratitude."
+    },
+    "pageTitle": "The Team",
+    "photoAlt": "Photo of Maria João",
+    "educationLabel": "Education",
+    "expertiseLabel": "Expertise",
+    "inMemoryBadge": "In Honor of Mestre Abel",
+    "cta": {
+      "title": "Join Our Mission",
+      "description": "We are looking for organizations that want to preserve their expert knowledge and build a future-proof team.",
+      "button": "Get in Touch"
+    }
+  },
+
+  "solutions": {
+    "pageTitle": "Tailored Solutions",
+    "pageIntro": "Custom approaches designed to preserve and transfer your critical expertise",
+
+    "knowledgeRetention": {
+      "title": "Knowledge Retention",
+      "intro": "When a specialist leaves, the knowledge doesn't have to go with them.",
+      "svg": "Knowledge Retention.svg",
+      "approach": {
+        "title": "Shadowing + Wiki",
+        "steps": [
+          "Audit and diagnosis: mapping the «knowledge map» (which masters hold which expertise)",
+          "Infrastructure creation: installation and configuration of customized Wiki",
+          "Initial content production: distilled and recorded knowledge modules (e.g. pack of 5 videos of critical processes)"
+        ]
+      }
+    },
+
+    "training": {
+      "title": "Training & Certification",
+      "intro": "Turn onboarding into a competitive advantage with structured training and skills certification.",
+      "svg": "Training Certification.svg",
+      "approach": {
+        "title": "On-the-Job Training",
+        "steps": [
+          "Apprentice support plans (charged per hour or per trainee)",
+          "Training based on the company Wiki, at the workstation",
+          "Performance assessments integrated into learning modules"
+        ]
+      }
+    },
+
+    "wikiCreation": {
+      "title": "Wiki Creation & Digitization",
+      "intro": "From paper to digital — or from zero to a complete Wiki.",
+
+      "digitization": {
+        "title": "Archive Digitization to Wiki",
+        "svg": "Archive.svg",
+        "steps": [
+          "Analysis and curation of existing work instruction archive",
+          "Conversion to Wiki format with visual and interactive stories",
+          "Customised Wiki infrastructure creation",
+          "Team training for autonomous maintenance"
+        ]
+      },
+
+      "fromScratch": {
+        "title": "Wiki Built from Scratch",
+        "svg": "Build.svg",
+        "steps": [
+          "Complete process mapping with the existing team",
+          "Definition and structuring of all knowledge modules",
+          "Customized Wiki infrastructure creation",
+          "Full content production (videos, instructions, micro-learning)"
+        ]
+      }
+    },
+
+    "whyChoose": {
+      "title": "Why Choose Our Solutions",
+      "svg": "Why Choose.svg",
+      "benefits": [
+        {
+          "title": "Risk Mitigation",
+          "description": "Ensure critical knowledge stays with your organization",
+          "svg": "risk.svg"
+        },
+        {
+          "title": "Scalability",
+          "description": "Systematized knowledge can be easily transferred and replicated",
+          "svg": "scale.svg"
+        },
+        {
+          "title": "Continuous Improvement",
+          "description": "Living documentation that evolves with your operations",
+          "svg": "improve.svg"
+        }
+      ]
+    },
+
+    "cta": {
+      "title": "Ready to Transform Your Knowledge?",
+      "description": "Let's discuss which solution best fits your organization's needs.",
+      "button": "Schedule a Consultation"
+    }
+  }
+}
