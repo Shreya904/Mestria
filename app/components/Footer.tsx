@@ -11,13 +11,13 @@ export function Footer() {
   const getLocalizedPath = (path: string) => `/${locale}${path}`;
 
   const socialLinks = [
-    {
-      href: "https://facebook.com",
-      label: "Facebook",
-      icon: (
-        <path d="M22 12a10 10 0 1 0-11.6 9.87v-6.99H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v6.98A10 10 0 0 0 22 12z" />
-      ),
-    },
+    // {
+    //   href: "https://facebook.com",
+    //   label: "Facebook",
+    //   icon: (
+    //     <path d="M22 12a10 10 0 1 0-11.6 9.87v-6.99H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v6.98A10 10 0 0 0 22 12z" />
+    //   ),
+    // },
     {
       href: "https://www.instagram.com/mestria.io",
       label: "Instagram",
