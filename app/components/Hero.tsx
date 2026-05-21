@@ -18,6 +18,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 py-20 sm:py-32 lg:py-40">
       {/* BACKGROUND */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* TOP RIGHT GLOW */}
         <div
           className="absolute -top-40 -right-40 w-96 h-96 rounded-full opacity-20"
           style={{
@@ -25,6 +26,8 @@ export default function Hero() {
             animation: "float 6s ease-in-out infinite",
           }}
         />
+
+        {/* BOTTOM LEFT GLOW */}
         <div
           className="absolute -bottom-40 -left-40 w-96 h-96 rounded-full opacity-20"
           style={{
@@ -32,6 +35,8 @@ export default function Hero() {
             animation: "float 8s ease-in-out infinite 1s",
           }}
         />
+
+        {/* CENTER GLOW */}
         <div
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2/3 h-2/3 opacity-10"
           style={{
@@ -41,30 +46,84 @@ export default function Hero() {
             animation: "pulse 4s ease-in-out infinite",
           }}
         />
+
+        {/* GRID */}
+        <svg
+          className="absolute inset-0 w-full h-full opacity-[0.04]"
+          preserveAspectRatio="xMidYMid slice"
+        >
+          <defs>
+            <pattern
+              id="grid"
+              width="80"
+              height="80"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M 80 0 L 0 0 0 80"
+                fill="none"
+                stroke="#e0701c"
+                strokeWidth="1"
+              />
+            </pattern>
+          </defs>
+
+          <rect width="100%" height="100%" fill="url(#grid)" />
+        </svg>
       </div>
 
       {/* CONTENT */}
-      <div className="relative z-10 max-w-5xl mx-auto text-center">
+      <div className="relative z-10 max-w-7xl mx-auto text-center">
         {/* BADGE */}
         <div
-          className="inline-block mb-8 px-6 py-2 rounded-full border border-orange-300 bg-orange-50 text-orange-700 text-sm font-semibold uppercase tracking-wider"
-          style={{ animation: "fadeInDown 0.8s ease-out" }}
+          className="
+            inline-block mb-8
+            px-5 sm:px-6 py-2
+            rounded-full
+            border border-orange-300
+            bg-orange-50/80
+            backdrop-blur-sm
+            text-orange-700
+            text-xs sm:text-sm
+            font-semibold
+            uppercase
+            tracking-[0.2em]
+          "
+          style={{
+            animation: "fadeInDown 0.8s ease-out",
+          }}
         >
           {t("hero.subtitle1")}
         </div>
 
-        {/* HERO TITLE (FIXED) */}
+        {/* HERO TITLE */}
         <h1
           className={`
-    font-bold mb-6 tracking-tight text-balance
-    ${
-      isPT
-        ? "text-4xl sm:text-5xl lg:text-6xl xl:text-6xl leading-[1.05]"
-        : "text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-[1.05]"
-    }
-  `}
+            font-bold tracking-tight mb-6
+            leading-[1.05]
+
+            text-wrap lg:text-nowrap
+
+            ${
+              isPT
+                ? `
+                  text-[2.5rem]
+                  sm:text-5xl
+                  md:text-6xl
+                  lg:text-[5rem]
+                  xl:text-[5.5rem]
+                `
+                : `
+                  text-[3rem]
+                  sm:text-6xl
+                  md:text-7xl
+                  lg:text-[6rem]
+                  xl:text-[7rem]
+                `
+            }
+          `}
           style={{
-            paddingBottom: "0.15em",
+            paddingBottom: "0.12em",
             backgroundImage:
               "linear-gradient(135deg, #e0701c 0%, #d4571a 100%)",
             backgroundClip: "text",
@@ -78,11 +137,28 @@ export default function Hero() {
 
         {/* SUBTITLE */}
         <p
-          className="
-    text-gray-700 mb-8 max-w-4xl mx-auto font-light
-    whitespace-nowrap overflow-hidden text-ellipsis
-    text-lg sm:text-xl md:text-2xl lg:text-3xl
-  "
+          className={`
+            text-gray-700
+            font-light
+            mx-auto
+            mb-10
+
+            leading-relaxed
+
+            text-base
+            sm:text-lg
+            md:text-xl
+            lg:text-2xl
+            xl:text-3xl
+
+            max-w-sm
+            sm:max-w-2xl
+            md:max-w-3xl
+            lg:max-w-5xl
+
+            text-wrap
+            lg:text-nowrap
+          `}
           style={{
             animation: "fadeInUp 1s ease-out 0.4s both",
           }}
@@ -90,39 +166,89 @@ export default function Hero() {
           {t("hero.subtitle2")}
         </p>
 
-        {/* CTA */}
+        {/* CTA BUTTONS */}
         <div
-          className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center"
-          style={{ animation: "fadeInUp 1s ease-out 0.6s both" }}
+          className="
+            flex flex-col sm:flex-row
+            gap-4 sm:gap-6
+            justify-center items-center
+          "
+          style={{
+            animation: "fadeInUp 1s ease-out 0.6s both",
+          }}
         >
           <Link
             href={getLocalizedPath("/solutions")}
-            className="px-10 py-4 rounded-lg font-semibold text-white text-lg transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 active:scale-95"
-            style={{ backgroundColor: "#e0701c" }}
+            className="
+              group
+              px-8 sm:px-10
+              py-4
+              rounded-2xl
+              font-semibold
+              text-white
+              text-base sm:text-lg
+              transition-all duration-300
+              shadow-lg hover:shadow-2xl
+              hover:scale-105
+              active:scale-95
+            "
+            style={{
+              backgroundColor: "#e0701c",
+            }}
           >
-            {t("cta.learnMore")}
+            <span className="flex items-center gap-2">
+              {t("cta.learnMore")}
+              <span className="transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </span>
           </Link>
 
           <a
             href="mailto:mariajoao@mestria.io"
-            className="px-10 py-4 rounded-lg font-semibold text-white text-lg border-2 transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 active:scale-95"
+            className="
+              group
+              px-8 sm:px-10
+              py-4
+              rounded-2xl
+              font-semibold
+              text-white
+              text-base sm:text-lg
+              border-2
+              transition-all duration-300
+              shadow-lg hover:shadow-2xl
+              hover:scale-105
+              active:scale-95
+            "
             style={{
               backgroundColor: "#736356",
               borderColor: "#736356",
             }}
           >
-            {t("cta.getInTouch")}
+            <span className="flex items-center gap-2">
+              {t("cta.getInTouch")}
+              <span className="transition-transform group-hover:translate-x-1">
+                ↗
+              </span>
+            </span>
           </a>
         </div>
 
-        {/* SCROLL */}
+        {/* SCROLL INDICATOR */}
         <div
-          className="mt-16 sm:mt-20 flex justify-center opacity-60 hover:opacity-100 transition-opacity"
-          style={{ animation: "fadeIn 1.5s ease-out 1s both" }}
+          className="
+            mt-16 sm:mt-20
+            flex justify-center
+            opacity-60 hover:opacity-100
+            transition-opacity
+          "
+          style={{
+            animation: "fadeIn 1.5s ease-out 1s both",
+          }}
         >
           <div style={{ animation: "bounce 2s ease-in-out infinite" }}>
             <svg
-              className="w-8 h-8 text-orange-600"
+              className="w-7 h-7 sm:w-8 sm:h-8 text-orange-600"
               fill="none"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -139,33 +265,64 @@ export default function Hero() {
       {/* ANIMATIONS */}
       <style>{`
         @keyframes fadeInDown {
-          from { opacity: 0; transform: translateY(-30px); }
-          to { opacity: 1; transform: translateY(0); }
+          from {
+            opacity: 0;
+            transform: translateY(-30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
         }
 
         @keyframes fadeInUp {
-          from { opacity: 0; transform: translateY(30px); }
-          to { opacity: 1; transform: translateY(0); }
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
         }
 
         @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
         }
 
         @keyframes float {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-30px); }
+          0%, 100% {
+            transform: translateY(0);
+          }
+
+          50% {
+            transform: translateY(-30px);
+          }
         }
 
         @keyframes pulse {
-          0%, 100% { transform: scale(1); }
-          50% { transform: scale(1.05); }
+          0%, 100% {
+            transform: scale(1);
+          }
+
+          50% {
+            transform: scale(1.05);
+          }
         }
 
         @keyframes bounce {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-10px); }
+          0%, 100% {
+            transform: translateY(0);
+          }
+
+          50% {
+            transform: translateY(-10px);
+          }
         }
       `}</style>
     </section>

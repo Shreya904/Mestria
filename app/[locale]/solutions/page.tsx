@@ -4,9 +4,11 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import ContactCTA from "@/app/components/ContactCTA";
+import { useLocale } from "next-intl";
 
 export default function SolutionsPage() {
   const t = useTranslations("solutions");
+  const locale = useLocale();
 
   return (
     <div className="min-h-screen bg-[#faf7f2] overflow-x-hidden relative">
@@ -34,10 +36,12 @@ export default function SolutionsPage() {
                 {t("pageIntro")}
               </p>
 
-              <p className="mt-6 text-[#736356]/80 max-w-md">
-                Structured systems for capturing, transferring, and scaling
-                expert knowledge before it disappears.
-              </p>
+              {locale !== "pt" && (
+                <p className="mt-6 text-[#736356]/80 max-w-md">
+                  Structured systems for capturing, transferring, and scaling
+                  expert knowledge before it disappears.
+                </p>
+              )}
             </motion.div>
 
             {/* ILLUSTRATION */}
