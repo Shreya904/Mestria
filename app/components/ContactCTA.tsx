@@ -38,7 +38,7 @@ export default function ContactCTA() {
               </h2>
 
               <p className="text-gray-600 text-lg mb-10 max-w-md">
-                Let’s collaborate and bring structure to your knowledge systems.
+                {t("contact.subtitle")}
               </p>
 
               {/* BUTTON */}
@@ -72,7 +72,7 @@ export default function ContactCTA() {
 
                 {/* Instagram (fixed full official-style glyph) */}
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/mestria.io"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
@@ -89,7 +89,7 @@ export default function ContactCTA() {
 
                 {/* LinkedIn (fixed proper logo) */}
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/company/mestria-io/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"

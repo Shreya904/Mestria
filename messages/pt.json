@@ -15,9 +15,9 @@
   },
   "home": {
     "hero": {
-      "title": "retenção de conhecimento",
+      "title": "Retenção de Conhecimento",
       "subtitle1": "O saber dos seus mestres preservado para sempre",
-      "subtitle2": "Transformamos o conhecimento tácito em activos estratégicos"
+      "subtitle2": "Transformamos o conhecimento tácito em activos estratégicos."
     },
     "cta": {
       "learnMore": "Saber Mais",
@@ -25,6 +25,7 @@
     },
     "contact": {
       "title": "Entre Em Contacto",
+      "subtitle": "MESTRIA: Porque o conhecimento é o único activo que valoriza quando é partilhado.",
       "sendEmail": "Enviar Email"
     },
     "mission": {

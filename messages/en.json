@@ -15,7 +15,7 @@
   },
   "home": {
     "hero": {
-      "title": "knowledge retention",
+      "title": "Knowledge Retention",
       "subtitle1": "Your master's knowledge preserved forever",
       "subtitle2": "We transform tacit knowledge into strategic assets"
     },
@@ -25,6 +25,7 @@
     },
     "contact": {
       "title": "Get In Touch",
+      "subtitle": "MESTRIA: Because knowledge is the only asset that appreciates when shared.",
       "sendEmail": "Send Email"
     },
     "mission": {

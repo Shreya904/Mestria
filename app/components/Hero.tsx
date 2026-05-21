@@ -78,8 +78,14 @@ export default function Hero() {
 
         {/* SUBTITLE */}
         <p
-          className="text-xl sm:text-2xl lg:text-3xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed font-light"
-          style={{ animation: "fadeInUp 1s ease-out 0.4s both" }}
+          className="
+    text-gray-700 mb-8 max-w-4xl mx-auto font-light
+    whitespace-nowrap overflow-hidden text-ellipsis
+    text-lg sm:text-xl md:text-2xl lg:text-3xl
+  "
+          style={{
+            animation: "fadeInUp 1s ease-out 0.4s both",
+          }}
         >
           {t("hero.subtitle2")}
         </p>

@@ -39,18 +39,12 @@ export default async function LocaleLayout({
   const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return (
-    <html
-      lang={locale}
-      suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col bg-white">
-        <NextIntlClientProvider messages={messages} locale={locale}>
-          <Header />
-          <main className="flex-grow">{children}</main>
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <>
+      <NextIntlClientProvider messages={messages} locale={locale}>
+        <Header />
+        <main className="flex-grow">{children}</main>
+        <Footer />
+      </NextIntlClientProvider>
+    </>
   );
 }
